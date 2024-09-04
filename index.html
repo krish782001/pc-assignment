@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            
+            <div class="location-dropdown">
+                <button class="location-button">Gurgaon</button>
+                <div class="dropdown-content">
+                    <a href="#">Delhi</a>
+                    <a href="#">Mumbai</a>
+                    <a href="#">Bangalore</a>
+                    <a href="#">Chennai</a>
+                    <a href="#">Kolkata</a>
+                </div>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search Property">
+                </div>
+
+            <div class="logo"> 
+                
+            </div>
+
+            <div class="menu-buttons">
+                <button class="sell-rent-button">Sell or Rent Property</button>
+                <button class="login-button">Login</button>
+                <button class="hamburger-menu">&#9776;</button> <!-- Hamburger Icon -->
+            </div>
+        </div>
+        <!-- Sidebar -->
+<div class="sidebar">
+    <a href="#" class="close-btn">&times;</a>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+    </ul>
+</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Residentials <span class="arrow">></span></a></li>
+                <li><a href="#">Commercials</a></li>
+                <li><a href="#">SCO Plots</a></li>
+                <li><a href="#">Office Spaces</a></li>
+                <li><a href="#">Shop & Retails</a></li>
+                <li><a href="#">Villa</a></li>
+                <li><a href="#">Penthouses</a></li>
+                <li><a href="#">Apartments</a></li>
+                <li><a href="#">Builder Floors</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+
+    <div class="hero-section">
+        <div class="content">
+            <h1>Contemporary living <span>with Skyline Views</span></h1>
+            <a href="#" class="view-projects">View all Projects <span>&rarr;</span></a>
+        </div>
+        <div class="search-box">
+            <div class="tabs">
+                <button class="tab-link active" data-tab="buy">Buy</button>
+                <button class="tab-link" data-tab="sell">Sell</button>
+                <button class="tab-link" data-tab="rent">Rent</button>
+            </div>
+            <div class="tabwrapper">
+                <div id="buy" class="tab-content active">
+                    <div class="input-group">
+                        <select>
+                            <option>Category</option>
+                        </select>
+                        <select>
+                            <option>Location</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select>
+                            <option>Price</option>
+                        </select>
+                        <select>
+                            <option>Unit Type</option>
+                        </select>
+                    </div>
+                    <button class="search-button">Buy</button>
+                </div>
+                <div id="sell" class="tab-content">
+                    <!-- Content for Sell tab -->
+                    <div class="input-group">
+                        <select>
+                            <option>Category</option>
+                        </select>
+                        <select>
+                            <option>Location</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select>
+                            <option>Price</option>
+                        </select>
+                        <select>
+                            <option>Unit Type</option>
+                        </select>
+                    </div>
+                    <button class="search-button">Sell</button>
+                </div>
+                <div id="rent" class="tab-content">
+                    <!-- Content for Rent tab -->
+                    <div class="input-group">
+                        <select>
+                            <option>Category</option>
+                        </select>
+                        <select>
+                            <option>Location</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <select>
+                            <option>Price</option>
+                        </select>
+                        <select>
+                            <option>Unit Type</option>
+                        </select>
+                    </div>
+                    <button class="search-button">Rent</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div class="carousel-container">
+        <div class="carousel-header">
+            <h2>Projects in Gurgaon</h2>
+        </div>
+        
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="assets/hero-image.jpg" alt="M3M Antalya Hills">
+                    <div class="carousel-caption">
+                        <h3>M3M Antalya Hills</h3>
+                        <p>Sector 79, Gurgaon</p>
+                        <p>2560 sqft</p>
+                        <p>INR 3.95 Cr to 5.50 Cr</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/hero-image.jpg" alt="M3M Antalya Hills">
+                    <div class="carousel-caption">
+                        <h3>M3M Antalya Hills</h3>
+                        <p>Sector 79, Gurgaon</p>
+                        <p>2560 sqft</p>
+                        <p>INR 3.95 Cr to 5.50 Cr</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/hero-image.jpg" alt="M3M Antalya Hills">
+                    <div class="carousel-caption">
+                        <h3>M3M Antalya Hills</h3>
+                        <p>Sector 79, Gurgaon</p>
+                        <p>2560 sqft</p>
+                        <p>INR 3.95 Cr to 5.50 Cr</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/hero-image.jpg" alt="M3M Antalya Hills">
+                    <div class="carousel-caption">
+                        <h3>M3M Antalya Hills</h3>
+                        <p>Sector 79, Gurgaon</p>
+                        <p>2560 sqft</p>
+                        <p>INR 3.95 Cr to 5.50 Cr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <!-- top developers -->
+     <div class="topdev">
+        <h3 class="topdev-header">Top developers in Gurgaon</h3>
+        <div class="topdev-image">
+        <img src="assets/dlf-logo.png" alt="">
+        <img src="assets/dlf-logo.png" alt="">
+        <img src="assets/dlf-logo.png" alt="">
+        <img src="assets/dlf-logo.png" alt="">
+        <img src="assets/dlf-logo.png" alt="">
+        </div>
+        
+        
+    </div>
+
+    <!-- footer -->
+     <footer>
+        
+        <ul class="footer-links">
+            <li>
+                <p href="#">Privacy Policy</p>
+                <p href="#">Terms & Conditions</p>
+                <p href="#">Sitemap</p>
+                <p href="#">Contact Us</p>
+                <p href="#">FAQ</p>
+            </li>
+        </ul>
+        <p class="copyright">&copy; 2024 Krishna. All rights reserved.</p>
+
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
